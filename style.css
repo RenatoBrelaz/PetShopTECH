@@ -1,0 +1,267 @@
+/* inicio do Navbar*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.navbar {
+    background: white;
+    padding-inline: 16px;
+    
+}
+
+.container-fluid {
+    max-width: 1280px;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 48px;
+    width: 7rem;
+    height: 4rem;
+}
+
+.icon {
+    font-size: 48px;
+    width: 30px;
+    height: 30px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-list a {
+    font-size: 15px;
+}
+
+/* Fim do Navbar */
+
+/* Inicio da barra de pesquisa*/
+
+.search-container {
+    display: flex;
+    border: 2px solid silver;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.search-input {
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+    font-size: 16px;
+    width: 250px;
+    background-color: silver;
+}
+
+.search-button {
+    background: #f1f1f1;
+    background-color: silver;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: silver;
+
+}
+
+
+
+/* Inicio da barra roxa*/
+
+.barra ul {
+    list-style-type: none;
+    background-color: #800080 ;
+    overflow: hidden;
+    margin: 0;
+    
+}
+
+.barra a {
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+}
+
+.barra li {
+    float: left;
+}
+
+.barra a:hover {
+    background-color: white;
+    color: purple;
+}
+
+/* inicio da tabela*/
+
+.text {
+    margin: 20px;
+    
+
+}
+
+.card {
+    display: inline-block;
+    float: none;
+    align-items: center;
+    background-color: silver;
+    margin: 2rem;
+    width: 200px;
+    height: 350px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+    transform-style: preserve-3d;
+    flex-wrap: wrap;
+    
+}
+
+.card img {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-items: center;
+    background-color: silver;
+    color: silver;
+    transform-style: preserve-3d;
+    max-width: 250px;
+    transition: 0.5s;
+
+   
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    gap: 4px;
+    height: 50%;
+    transform-style: preserve-3d;
+
+  }
+
+
+.card h1 {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transform-style: preserve-3d;
+}
+  
+.card h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    transform-style: preserve-3d;
+}
+  
+.card button {
+    background-color: purple;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 10px;
+    transform-style: preserve-3d;
+}
+
+.card button a {
+    color: white;
+}
+.card span {
+    font-family: Arial, Helvetica, sans-serif;
+    transform-style: preserve-3d;
+}
+  
+.card button:hover {
+    background-color: purple;
+    cursor: pointer;
+    transform-style: preserve-3d;
+}
+
+.card :hover img, .card :hover button {
+    transform: translate3d(0,0,100px);
+    
+    }
+
+/* Inicio do rodapé */
+
+.rodape {
+    background-color: #800080;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 93,5%;
+    height: 100px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.rodape div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    justify-content: center;
+    
+    
+}
+
+.rodape h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+   
+    
+}
+
+.rodape p, .rodape a{
+
+color: #fff;
+text-decoration: none;
+margin-bottom: 7px;
+
+
+}
+
+.rodape a:hover{
+    text-decoration: underline;
+   
+}
+
+.social-icons img{
+
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+}
